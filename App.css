@@ -3,7 +3,7 @@ body, html {
   padding: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: white;
-  background: url('C:/Users/kamal/Desktop/battlefield4-server-info/battlefield4-server-info/client/public/assets/background.jpg') no-repeat center center fixed;
+  background: url('/assets/background.jpg') no-repeat center center fixed;
   background-size: cover;
   height: 100%;
 }
