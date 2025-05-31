@@ -1,0 +1,23 @@
+.server-header {
+  margin-bottom: 30px;
+}
+
+.server-name {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.map-mode-info {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  margin-bottom: 10px;
+}
+
+.server-description {
+  font-size: 14px;
+  color: #cccccc;
+  line-height: 1.5;
+}

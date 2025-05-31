@@ -1,0 +1,78 @@
+/* Sidebar.css */
+
+.sidebar {
+  width: 60px;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5); /* semi-transparent dark background */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding: 10px 0;
+  z-index: 10;
+}
+
+/* Container for the game icons */
+.icon-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+/* Game thumbnails */
+.icon-list img {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.icon-list img:hover {
+  transform: scale(1.1);
+}
+
+/* Play and menu buttons */
+.menu-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.play-btn,
+.menu-btn {
+  background: none;
+  color: white;
+  border: 2px solid white;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.play-btn:hover,
+.menu-btn:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* Help icon at the bottom */
+.help-icon {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.help-icon:hover {
+  color: #ccc;
+}
